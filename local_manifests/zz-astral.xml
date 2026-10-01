@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  AstralOS local manifest.
+  Drop into .repo/local_manifests/zz-astral.xml (name must sort after
+  "roomservice.xml" so AstralOS entries win if breakfast regenerates it).
+-->
+<manifest>
+  <remote name="astral"
+           fetch="https://github.com/AstralOSProject/"
+           revision="main" />
+
+  <remove-project path="bootable/recovery" optional="true" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="astral" />
+
+  <remove-project path="device/xiaomi/miatoll" optional="true" />
+  <project path="device/xiaomi/miatoll" name="device_xiaomi_miatoll" remote="astral" />
+
+  <remove-project path="device/xiaomi/sm6250-common" optional="true" />
+  <project path="device/xiaomi/sm6250-common" name="device_xiaomi_sm6250-common" remote="astral" />
+
+  <remove-project path="external/roboto-fonts" optional="true" />
+  <project path="external/roboto-fonts" name="external_roboto-fonts" remote="astral" />
+
+  <remove-project path="frameworks/base" optional="true" />
+  <project path="frameworks/base" name="frameworks_base" remote="astral" />
+
+  <remove-project path="frameworks/native" optional="true" />
+  <project path="frameworks/native" name="frameworks_native" remote="astral" />
+
+  <remove-project path="hardware/sony/timekeep" optional="true" />
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" />
+
+  <remove-project path="hardware/xiaomi" optional="true" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" />
+
+  <remove-project path="kernel/xiaomi/sm6250" optional="true" />
+  <project path="kernel/xiaomi/sm6250" name="LineageOS/android_kernel_xiaomi_sm6250" remote="github" />
+
+  <remove-project path="lineage-sdk" optional="true" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="astral" />
+
+  <remove-project path="packages/apps/Backgrounds" optional="true" />
+  <project path="packages/apps/Backgrounds" name="packages_apps_Backgrounds" remote="astral" />
+
+  <remove-project path="packages/apps/DocumentsUI" optional="true" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="astral" />
+
+  <remove-project path="packages/apps/Jelly" optional="true" />
+  <project path="packages/apps/Jelly" name="packages_apps_Jelly" remote="astral" />
+
+  <remove-project path="packages/apps/LineageParts" optional="true" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="astral" />
+
+  <remove-project path="packages/apps/Settings" optional="true" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="astral" />
+
+  <remove-project path="packages/apps/SetupWizard" optional="true" />
+  <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="astral" />
+
+  <remove-project path="packages/apps/Trebuchet" optional="true" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="astral" />
+
+  <remove-project path="packages/apps/Updater" optional="true" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="astral" />
+
+  <remove-project path="vendor/lineage" optional="true" />
+  <project path="vendor/lineage" name="vendor_lineage" remote="astral" />
+
+  <remove-project path="vendor/astralos" optional="true" />
+  <project path="vendor/astralos" name="build-scripts" remote="astral" />
+</manifest>

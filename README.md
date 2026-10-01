@@ -1,3 +1,4 @@
+![AstralOS Logo](logo.png)
 # AstralOS Manifest
 
 Build AstralOS for **miatoll** (`curtana`, `joyeuse`, `excalibur`, `gram`) from source.

@@ -145,7 +145,7 @@ Notes:
 - `optional="true"` makes the remove a no-op when the path doesn't exist (fresh tree).
 - Once your device builds, **send a PR** adding it to this repo's
   `local_manifests/zz-astral.xml` (or a new `zz-<device>.xml` here) so every builder
-  gets it without manual steps — that's how miatoll ships.
+  gets it without manual steps, that's how miatoll ships.
 
 ```bash
 repo sync -c -j"$(nproc)" --force-sync
@@ -185,10 +185,9 @@ grep ro.build.display.id out/target/product/<codename>/system/build.prop
 
 ## Step 4 — release
 
-1. Test the build on real hardware (boot, telephony, Wi-Fi, Bluetooth, camera,
-   sensors, fingerprint, charging — plus every AstralOS feature you ship).
-2. Upload the zip as a release asset (same pattern as miatoll:
-   `https://github.com/AstralOSProject/ota/releases/download/<tag>/<zip>`).
-3. Add `https://astralosproject.github.io/ota/<codename>.json` to the
-   [`ota`](https://github.com/AstralOSProject/ota) repo — schema in its README.
-4. Ask on [Discord](https://discord.gg/WCUbsQx3kE) before calling the build OFFICIAL.
+1. **Test the build on real hardware (boot, telephony, Wi-Fi, Bluetooth, camera.**
+2. **Ask the owner to upload the zip as a release asset (same pattern as miatoll:
+   `https://github.com/AstralOSProject/ota/releases/download/<tag>/<zip>`).**
+3. **Ask the owner to add `https://astralosproject.github.io/ota/<codename>.json` to the
+   [`ota`](https://github.com/AstralOSProject/ota) repo — schema in its README.**
+4. **Ask on [Discord](https://discord.gg/WCUbsQx3kE) before calling the build OFFICIAL!**

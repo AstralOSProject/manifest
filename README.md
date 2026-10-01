@@ -60,6 +60,16 @@ If you run it anyway, it may regenerate `.repo/local_manifests/roomservice.xml`;
 that file loads before `zz-astral.xml`, so AstralOS repos still win. Re-run
 `repo sync` afterwards if repo complains about duplicate paths.
 
+## Other devices
+
+miatoll is baked into this manifest; every other device needs its own tree
+added (automatically via LineageOS roomservice if the device is official on
+`lineage-22.2`, or with a small local-manifest snippet otherwise). Full
+walkthrough with a worked example — **merlinx (Redmi Note 9)** — including
+blob extraction and releasing:
+
+**[docs/build-other-devices.md](docs/build-other-devices.md)**
+
 ## What this manifest changes
 
 | Path | Source |

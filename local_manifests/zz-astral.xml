@@ -57,6 +57,9 @@
   <remove-project path="packages/apps/SetupWizard" optional="true" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="astral" />
 
+  <remove-project path="packages/apps/ThemePicker" optional="true" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="astral" />
+
   <remove-project path="packages/apps/Trebuchet" optional="true" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="astral" />
 

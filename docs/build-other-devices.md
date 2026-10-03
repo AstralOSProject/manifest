@@ -185,7 +185,7 @@ grep ro.build.display.id out/target/product/<codename>/system/build.prop
 
 ## Step 4 — release
 
-1. **Test the build on real hardware (boot, telephony, Wi-Fi, Bluetooth, camera.**
+1. **Test the build on real hardware (boot, telephony, Wi-Fi, Bluetooth, camera)**
 2. **Ask the owner to upload the zip as a release asset (same pattern as miatoll:
    `https://github.com/AstralOSProject/ota/releases/download/<tag>/<zip>`).**
 3. **Ask the owner to add `https://astralosproject.github.io/ota/<codename>.json` to the

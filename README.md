@@ -103,3 +103,7 @@ OTA JSON in the [`ota`](https://github.com/AstralOSProject/ota) repository.
 - A project checked out from the wrong remote: `repo sync -c --force-sync <path>`.
 - Anything else: open an issue on this repository or ask on
   [Discord](https://discord.gg/WCUbsQx3kE).
+
+  ## Other
+
+  - **You can try building AstralOS on the LineageOS 23.2 or 24.0 base**

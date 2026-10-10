@@ -1,8 +1,8 @@
 # Building AstralOS for other devices
 
 The [`zz-astral.xml`](../local_manifests/zz-astral.xml) manifest in this repo makes
-`repo init` + `repo sync` produce a complete buildable tree for **miatoll**
-(Redmi Note 9 Pro family). This guide covers every other device — using
+`repo init` + `repo sync` produce a complete buildable tree for miatoll
+(Redmi Note 9 Pro family). This guide covers every other device using
 **`merlinx` (Redmi Note 9)** as the worked example.
 
 ## Step 0 — set up the base tree
@@ -29,7 +29,7 @@ You end up in one of two cases:
 
 ## Case A — the tree has a `lineage-22.2` branch: nothing to do
 
-Example: `alioth` (POCO F3). The traditional LineageOS flow just works — do **not**
+Example: `alioth` (POCO F3). The traditional LineageOS flow just works, do **not**
 add anything to this manifest. Run:
 
 ```bash
